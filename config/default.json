@@ -1,0 +1,48 @@
+{
+  "simulator": {
+    "speed": 24,
+    "interval": 60000,
+    "sensors": {
+      "temperature": {
+        "minValue": 18,
+        "minHour": 3.5,
+        "maxValue": 24,
+        "maxHour": 14.5,
+        "maxDeviation": 0.2,
+        "precision": 2
+      },
+      "humidity": {
+        "minValue": 40,
+        "minHour": 14,
+        "maxValue": 60,
+        "maxHour": 5,
+        "maxDeviation": 1,
+        "precision": 2
+      },
+      "luminousFlux": {
+        "minValue": 0,
+        "minHour": 2.5,
+        "maxValue": 700,
+        "maxHour": 12,
+        "maxDeviation": 5,
+        "precision": 1
+      }
+    }
+  },
+  "mqtt" : {
+    "broker" : "mqtt://broker.hivemq.com",
+    "eventTopic" : "/sensors/"
+  },
+  "output" : {
+    "folder" : "out/",
+    "consoleEnabled" : true
+  }
+}
+
+
+
+
+
+
+
+

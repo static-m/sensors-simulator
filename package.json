@@ -1,0 +1,26 @@
+{
+  "name": "sensors-simulator",
+  "version": "1.0.0",
+  "description": "Simple application for generating random room sensors data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "sensors",
+    "room",
+    "mqtt",
+    "json"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "accurate-interval": "^1.0.9",
+    "config": "^3.3.1",
+    "mqtt": "^4.1.0",
+    "uuid": "^8.1.0"
+  },
+  "prettier": {
+    "tabWidth": 4
+  }
+}
